@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 # यहाँ सुधार किया गया है ताकि Render इसे पहचान सके
-from google import generativeai as genai 
+import google.generativeai as genai 
 
 app = Flask(__name__)
 CORS(app)
