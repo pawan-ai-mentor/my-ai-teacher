@@ -2,7 +2,7 @@
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from google import genai
+import google.generativeai as genai
 
 # --- 1. CONFIGURATION ---
 # Note: The 'genai.Client()' automatically looks for the GEMINI_API_KEY environment variable.
