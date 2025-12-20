@@ -1,6 +1,6 @@
 // --- 1. IMPORTS & CONFIGURATION ---
 // यहाँ आपका नया Render लिंक डाल दिया गया है
-const API_URL = 'https://pawan-ai-shikshak.onrender.com/ask_ai'; 
+const API_URL = 'https://sahani-ai-teacher.onrender.com/ask_ai'; 
 const USER_ID_A = 'student_revolution'; 
 const USER_ID_B = 'student_advanced'; 
 const CURRENT_USER_ID = USER_ID_A; 
